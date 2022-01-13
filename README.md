@@ -5,7 +5,7 @@ Essa atividade foi passada no curso da Gama Academy com o intuito de reforçar a
 
 Nessa atividade o objetivo foi manipular dados de produtos para criar regras de negócio para uma loja de artigos eletrônicos.
 
-Uma lista de produtos foi previamente dada e os desafios foram todos cumpridos.
+Uma lista de produtos foi previamente dada e os desafios foram cumpridos. Além do que foi pedido, criei uma página com HTML e CSS apenas para deixar mais vísivel os resultados das funções criadas com JavaScript, de forma com que o resultado seja mais vísivel.
 
 ## Linguagens
 
