@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body, html {
+    height: 100vh;
+    background-color:  #e1e1e4;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ff914d;
+    color: white;
+    height: 10vh;
+}
+
+main {
+    padding: 1vh;
+    margin-top: 5vh;
+    height: 80vh;
+}
+
+h2 {
+    text-align: center;
+}
+
+.container {
+    margin-top: 1vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    border: 5px solid black;
+    border-left: none;
+    border-right: none;
+}
+
+h4 {
+    font-size: large;
+}
