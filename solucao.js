@@ -1231,15 +1231,15 @@ function exercicio11 () {
         }
     }
 
-    return listaDeptos[0].nomeDepto + ": R$ " + listaDeptos[0].somatoriaItens + ", " + 
-    listaDeptos[1].nomeDepto + ": R$ " + listaDeptos[1].somatoriaItens + ", " +
-    listaDeptos[2].nomeDepto + ": R$ " + listaDeptos[2].somatoriaItens + ", " +
-    listaDeptos[3].nomeDepto + ": R$ " + listaDeptos[3].somatoriaItens + ", " +
-    listaDeptos[4].nomeDepto + ": R$ " + listaDeptos[4].somatoriaItens + ", " +
-    listaDeptos[5].nomeDepto + ": R$ " + listaDeptos[5].somatoriaItens + ", " +
-    listaDeptos[6].nomeDepto + ": R$ " + listaDeptos[6].somatoriaItens + ", " +
-    listaDeptos[7].nomeDepto + ": R$ " + listaDeptos[7].somatoriaItens + ", " +
-    listaDeptos[8].nomeDepto + ": R$ " + listaDeptos[8].somatoriaItens
+    return listaDeptos[0].nomeDepto + ": R$ " + listaDeptos[0].somatoriaItens.toFixed(2) + ", " + 
+    listaDeptos[1].nomeDepto + ": R$ " + listaDeptos[1].somatoriaItens.toFixed(2) + ", " +
+    listaDeptos[2].nomeDepto + ": R$ " + listaDeptos[2].somatoriaItens.toFixed(2) + ", " +
+    listaDeptos[3].nomeDepto + ": R$ " + listaDeptos[3].somatoriaItens.toFixed(2) + ", " +
+    listaDeptos[4].nomeDepto + ": R$ " + listaDeptos[4].somatoriaItens.toFixed(2) + ", " +
+    listaDeptos[5].nomeDepto + ": R$ " + listaDeptos[5].somatoriaItens.toFixed(2) + ", " +
+    listaDeptos[6].nomeDepto + ": R$ " + listaDeptos[6].somatoriaItens.toFixed(2) + ", " +
+    listaDeptos[7].nomeDepto + ": R$ " + listaDeptos[7].somatoriaItens.toFixed(2) + ", " +
+    listaDeptos[8].nomeDepto + ": R$ " + listaDeptos[8].somatoriaItens.toFixed(2)
 }
 
 function exercicio12 () {
@@ -1268,15 +1268,15 @@ function exercicio12 () {
             }
         }
 
-    return listaDeptos[0].nomeDepto + ": R$ " + listaDeptos[0].somaInventario + ", " + 
-    listaDeptos[1].nomeDepto + ": R$ " + listaDeptos[1].somaInventario + ", " +
-    listaDeptos[2].nomeDepto + ": R$ " + listaDeptos[2].somaInventario + ", " +
-    listaDeptos[3].nomeDepto + ": R$ " + listaDeptos[3].somaInventario + ", " +
-    listaDeptos[4].nomeDepto + ": R$ " + listaDeptos[4].somaInventario + ", " +
-    listaDeptos[5].nomeDepto + ": R$ " + listaDeptos[5].somaInventario + ", " +
-    listaDeptos[6].nomeDepto + ": R$ " + listaDeptos[6].somaInventario + ", " +
-    listaDeptos[7].nomeDepto + ": R$ " + listaDeptos[7].somaInventario + ", " +
-    listaDeptos[8].nomeDepto + ": R$ " + listaDeptos[8].somaInventario
+    return listaDeptos[0].nomeDepto + ": R$ " + listaDeptos[0].somaInventario.toFixed(2) + ", " + 
+    listaDeptos[1].nomeDepto + ": R$ " + listaDeptos[1].somaInventario.toFixed(2) + ", " +
+    listaDeptos[2].nomeDepto + ": R$ " + listaDeptos[2].somaInventario.toFixed(2) + ", " +
+    listaDeptos[3].nomeDepto + ": R$ " + listaDeptos[3].somaInventario.toFixed(2) + ", " +
+    listaDeptos[4].nomeDepto + ": R$ " + listaDeptos[4].somaInventario.toFixed(2) + ", " +
+    listaDeptos[5].nomeDepto + ": R$ " + listaDeptos[5].somaInventario.toFixed(2) + ", " +
+    listaDeptos[6].nomeDepto + ": R$ " + listaDeptos[6].somaInventario.toFixed(2) + ", " +
+    listaDeptos[7].nomeDepto + ": R$ " + listaDeptos[7].somaInventario.toFixed(2) + ", " +
+    listaDeptos[8].nomeDepto + ": R$ " + listaDeptos[8].somaInventario.toFixed(2)
 }
 
 function exercicio13 () {
@@ -1312,15 +1312,15 @@ function exercicio13 () {
         listaDeptos[j].ticketMedio = listaDeptos[j].totalEstoque / listaDeptos[j].somatoriaItens;
     }
 
-    return listaDeptos[0].nomeDepto + ": R$ " + listaDeptos[0].ticketMedio + ", " + 
-    listaDeptos[1].nomeDepto + ": R$ " + listaDeptos[1].ticketMedio + ", " +
-    listaDeptos[2].nomeDepto + ": R$ " + listaDeptos[2].ticketMedio + ", " +
-    listaDeptos[3].nomeDepto + ": R$ " + listaDeptos[3].ticketMedio + ", " +
-    listaDeptos[4].nomeDepto + ": R$ " + listaDeptos[4].ticketMedio + ", " +
-    listaDeptos[5].nomeDepto + ": R$ " + listaDeptos[5].ticketMedio + ", " +
-    listaDeptos[6].nomeDepto + ": R$ " + listaDeptos[6].ticketMedio + ", " +
-    listaDeptos[7].nomeDepto + ": R$ " + listaDeptos[7].ticketMedio + ", " +
-    listaDeptos[8].nomeDepto + ": R$ " + listaDeptos[8].ticketMedio
+    return listaDeptos[0].nomeDepto + ": R$ " + listaDeptos[0].ticketMedio.toFixed(2) + ", " + 
+    listaDeptos[1].nomeDepto + ": R$ " + listaDeptos[1].ticketMedio.toFixed(2) + ", " +
+    listaDeptos[2].nomeDepto + ": R$ " + listaDeptos[2].ticketMedio.toFixed(2) + ", " +
+    listaDeptos[3].nomeDepto + ": R$ " + listaDeptos[3].ticketMedio.toFixed(2) + ", " +
+    listaDeptos[4].nomeDepto + ": R$ " + listaDeptos[4].ticketMedio.toFixed(2) + ", " +
+    listaDeptos[5].nomeDepto + ": R$ " + listaDeptos[5].ticketMedio.toFixed(2) + ", " +
+    listaDeptos[6].nomeDepto + ": R$ " + listaDeptos[6].ticketMedio.toFixed(2) + ", " +
+    listaDeptos[7].nomeDepto + ": R$ " + listaDeptos[7].ticketMedio.toFixed(2) + ", " +
+    listaDeptos[8].nomeDepto + ": R$ " + listaDeptos[8].ticketMedio.toFixed(2)
 }
 
 function exercicio14 () {
